@@ -10,6 +10,7 @@
     "r-ts": "ts-node-dev src/researches.ts",
     "r-js": "ts-node-dev src/research.js",
     "test": "jest --watchAll --no-cache",
+    "test:ci": "jest",
     "test-s": "jest -t \"update\""
   },
   "jest": {
