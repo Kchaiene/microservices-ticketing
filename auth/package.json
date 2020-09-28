@@ -9,7 +9,8 @@
     "start3": "ts-node src/index.ts",
     "r-ts": "ts-node-dev src/researches.ts",
     "r-js": "ts-node-dev src/research.js",
-    "test": "jest --watchAll --no-cache"
+    "test": "jest --watchAll --no-cache",
+    "test:ci": "jest"
   },
   "jest": {
     "preset": "ts-jest",
