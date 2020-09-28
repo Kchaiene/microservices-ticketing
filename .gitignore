@@ -1,0 +1,8 @@
+node_modules/
+ZZZ/
+.idea
+/read.txt
+.env
+
+# on mac os
+.DS_Store
