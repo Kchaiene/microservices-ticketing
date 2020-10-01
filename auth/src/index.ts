@@ -7,7 +7,7 @@ import {app} from "./app";
 async function start () {
   // process.env.JWT_SECRET = "2q3sdfgdf";
   // await connectInMemoryDb();
-  console.log("STARTING UP ==> INDEX");
+  // console.log("STARTING UP ==> INDEX");
   if (!process.env.JWT_SECRET) {throw new Error("Error no JWT_SECRET"); }
   if (!process.env.MONGO_URI) {throw new Error("Error no MONGO_URI"); }
 
