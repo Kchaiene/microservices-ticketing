@@ -18,7 +18,8 @@ let mongo: any;
 beforeAll(async ()=>{
   process.env.JWT_SECRET = "asdfasaf";
 
-  mongo = new MongoMemoryServer({ binary: { version: '4.2.6' } });
+  mongo = new MongoMemoryServer();
+  // mongo = new MongoMemoryServer({ binary: { version: '4.2.6' } });
   const mongoUri = await  mongo.getUri();
 
   await mongoose.connect(mongoUri, {
